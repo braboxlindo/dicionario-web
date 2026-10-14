@@ -1,0 +1,116 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+#container {
+    width: 100%;
+    overflow: auto;
+    background-color: #f6f9f9;
+}
+
+#topo {
+    background-color: #304253;
+    color: #fff;
+    width: 100%;
+    padding: 0.5% 3.6%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#topo h1 {
+    font-size: 2rem;
+}
+
+#topo h2 {
+    color: #d9e1e9;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+#menu {
+    width: 25%;
+    float: left;
+    padding: 2.6%;
+    box-sizing: border-box;
+    background-color: #eaf2f8;
+    min-height: 100vh;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    margin-bottom: 0.2rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #24466b;
+    display: block;
+    padding: 0.6rem;
+}
+
+#menu a:hover {
+    background-color: #d0e0f6;
+    border-left: 4px solid #2675e8;
+    color: #1768cf;
+}
+
+#conteudo {
+    width: 75%;
+    float: left;
+    padding: 3% 4.5%;
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+#distancia {
+    width: 100%;
+    overflow: auto;
+}
+
+.conceito {
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 3rem;
+    scroll-margin-top: 1rem;
+}
+
+.conceito h1 {
+    font-size: 2.5rem;
+    color: #304c6c;
+    border-bottom: 2px solid #dce5ed;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.conceito p {
+    width: 100%;
+    color: #3c4f62;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.conceito h2 {
+    font-size: 1.5rem;
+    color: #30465e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.conceito ul {
+    margin-left: 2rem;
+    color: #30465e;
+}
+
+.conceito li {
+    margin-bottom: 0.8rem;
+}
